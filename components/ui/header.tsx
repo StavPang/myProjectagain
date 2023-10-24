@@ -17,9 +17,9 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/about">About us</Nav.Link>
             <NavDropdown title="Noise" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Construction Noise Monitoring</NavDropdown.Item>
+              <NavDropdown.Item href="/construction_noise_monitoring">Construction Noise Monitoring</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
               Field Noise Measurements
               </NavDropdown.Item>

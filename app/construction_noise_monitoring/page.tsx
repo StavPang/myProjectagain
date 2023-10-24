@@ -14,7 +14,7 @@ export default function ConstructingNoiseMonitoring() {
             {/* Page header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h1 className="h1">Welcome to Constructing Noise Monitoring</h1>
-              <p className="text-xl text-gray-600">Explore our services and solutions for noise monitoring in construction projects.</p>
+              <p className="text-xl text-gray-600">Constructing noise monitoring is crucial for managing noise levels during construction. It ensures compliance with regulations and minimizes environmental impact. Advanced sound monitoring equipment accurately measures noise, preventing disturbances. Noise impact assessments identify risks, enabling proactive measures for mitigation. Real-time monitoring systems provide immediate data insights for timely adjustments. Site surveys evaluate the overall noise footprint, facilitating tailored control plans. Solutions like sound barriers and scheduling restrictions mitigate excessive noise emissions. Integrating noise reduction measures demonstrates commitment to sustainable practices. Collaboration with experts ensures comprehensive noise management aligned with standards. Emphasizing noise monitoring underscores dedication to sustainable development.</p>
             </div>
           </div>
         </div>
