@@ -4,6 +4,7 @@ import FeaturesBlocks from '@/components/features-blocks';
 import Testimonials from '@/components/testimonials';
 import Newsletter from '@/components/newsletter';
 import Image from 'next/image';
+import Footer from '@/components/ui/footer';
 
 export default function ConstructingNoiseMonitoring() {
   return (
@@ -39,38 +40,15 @@ export default function ConstructingNoiseMonitoring() {
         </div>
       </section>
 
-      {/* Team Photo Section */}
-      <section className="bg-gray-100 py-12">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-3xl text-gray-800 mb-4">Meet Our Team</h2>
-          <div className="flex flex-wrap justify-center items-center">
-            <div className="p-4">
-              <Image
-                src="/team-member1.jpg" // Replace with your image path
-                alt="Team Member 1"
-                width={200}
-                height={200}
-              />
-              <p className="text-lg mt-2">John Doe</p>
-            </div>
-            <div className="p-4">
-              <Image
-                src="/team-member2.jpg" // Replace with your image path
-                alt="Team Member 2"
-                width={200}
-                height={200}
-              />
-              <p className="text-lg mt-2">Jane Doe</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Testimonials Section */}
       <Testimonials />
 
       {/* Newsletter Section */}
       <Newsletter />
+
+      <Footer />
     </div>
   );
 }
