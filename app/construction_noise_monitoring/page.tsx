@@ -8,6 +8,7 @@ import Footer from '@/components/ui/footer';
 
 export default function ConstructingNoiseMonitoring() {
   return (
+    <>
     <div>
       <section className="bg-gradient-to-b from-gray-100 to-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -15,14 +16,13 @@ export default function ConstructingNoiseMonitoring() {
             {/* Page header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h1 className="h1">Welcome to Constructing Noise Monitoring</h1>
-              <p className="text-xl text-gray-600">Constructing noise monitoring is crucial for managing noise levels during construction. It ensures compliance with regulations and minimizes environmental impact. Advanced sound monitoring equipment accurately measures noise, preventing disturbances. Noise impact assessments identify risks, enabling proactive measures for mitigation. Real-time monitoring systems provide immediate data insights for timely adjustments. Site surveys evaluate the overall noise footprint, facilitating tailored control plans. Solutions like sound barriers and scheduling restrictions mitigate excessive noise emissions. Integrating noise reduction measures demonstrates commitment to sustainable practices. Collaboration with experts ensures comprehensive noise management aligned with standards. Emphasizing noise monitoring underscores dedication to sustainable development.</p>
+              <p className="text-xl text-gray-600">Constructing noise monitoring is crucial for managing noise levels during construction. It ensures compliance with regulations and minimizes environmental impact. Advanced sound monitoring equipment accurately measures noise, preventing disturbances. Noise impact assessments identify risks, enabling proactive measures for mitigation. Real-time monitoring systems provide immediate data insights for timely adjustments. .</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <Features />
+      
 
       {/* Services Section */}
       <section className="bg-white">
@@ -42,13 +42,15 @@ export default function ConstructingNoiseMonitoring() {
 
       
 
-      {/* Testimonials Section */}
-      <Testimonials />
+     
 
-      {/* Newsletter Section */}
-      <Newsletter />
-
-      <Footer />
+      
+      
     </div>
+
+    {/* Features Section */}
+    <Features />
+
+    </>
   );
 }
