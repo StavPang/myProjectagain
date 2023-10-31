@@ -1,4 +1,4 @@
-import Hero from '@/components/hero';
+import Footer from '@/components/ui/footer';
 import Features from '@/components/features';
 import FeaturesBlocks from '@/components/features-blocks';
 import Testimonials from '@/components/testimonials';

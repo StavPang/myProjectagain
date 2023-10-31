@@ -50,6 +50,7 @@ export default function ConstructingNoiseMonitoring() {
 
     {/* Features Section */}
     <Features />
+    <Footer />
 
     </>
   );
