@@ -1,0 +1,14 @@
+/* styles/Home.module.css */
+
+.background-image {
+    background-image: url('/public/images/yeyo.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust as needed to cover the entire viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
